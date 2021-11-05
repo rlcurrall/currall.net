@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "build": "tailwindcss -o app.css",
+        "build:prod": "NODE_ENV=production tailwindcss -o app.css --minify"
+    },
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}

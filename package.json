@@ -1,9 +1,10 @@
 {
     "scripts": {
-        "build": "tailwindcss -o app.css",
-        "build:prod": "NODE_ENV=production tailwindcss -o app.css --minify"
+        "dev": "serve",
+        "build": "echo 'Nothing to do here 💖'",
+        "build:prod": "echo 'Nothing to do here 💖'"
     },
-  "dependencies": {
-    "tailwindcss": "^2.2.19"
-  }
+    "devDependencies": {
+        "serve": "^14.2.1"
+    }
 }
